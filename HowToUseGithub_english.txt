@@ -1,0 +1,23 @@
+﻿how to creat a new repository at the first time.
+1. to Run the Git Bash；
+2. tow ways:
+	(1)to input 'git init' to initialize, showed by a '.git';
+	(2)or 'git clone' downloaded to local 
+**'git status' to check out the current files.
+**if the folder is empty, it doesn't show.
+3. to creat a new txt/md file:
+    (1)echo "new file 01 " >> Readme.txt/md 
+    (2)vim/vi readme.txt
+	How to get back : (esc)
+	    :wq , to save and exit vim/vi
+	    :w, to save wihout exit vim/vi
+	    :w file, to save it modified to another file without exit
+	    :q, to exit the vim/vi without saving it
+    (3)to create the local
+4. git add readme.txt/*/.
+5. git commit -m "first version".   //comment
+6. notice, if it's your first time to use, you need to configure these info
+	git config --global user.email "you@example.com" (your email address)
+	git config --global user.name "Your Name" (your name)
+7. git remote add origin https://github.com/GarySun05/Git_Github.git
+8. git push -u origin master
